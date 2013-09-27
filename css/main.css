@@ -1,0 +1,177 @@
+body{
+  font-family: 'Roboto', serif;
+	font-size: 0.79rem;
+	background: #fff url(../img/FFFFFF512700_99.jpg) repeat top left;
+
+}
+
+h1, h2, h3{
+font-family: 'Playfair Display', sans-serif;	text-transform: uppercase;
+}
+h1, h2, h3{
+ color: #A11A0B;
+}
+h4, h5, h6{
+font-family: 'Roboto', sans-serif;	text-transform: uppercase;
+}
+h4{
+  color: #B94D42;
+  margin-bottom: 0.1rem;
+	padding-bottom: 0.1rem;
+}
+h5{
+  margin-top: 0.1rem;
+	padding-top: 0.1rem;
+	padding-bottom: 0;
+	font-weight: 400;
+	color: #999;
+}
+
+a, a:active, a:visited{
+  color: #FFFFFF;
+	text-decoration: none;
+}
+a:focus, a:hover{
+  color: #F9F9F9;
+	text-decoration: none;
+}
+
+.link, .link:visited, .link:active{
+  padding: 0.2rem 0.5rem;
+	background-color: #ddd;
+	color: #393939 !important;
+}
+.link:hover, .link:focus{
+	background-color: #ccc;
+	color: #393939;
+}
+
+.flex-direction-nav{
+  display: none !important;
+}
+
+
+ul{
+  margin: 0;
+  list-style: none;
+	padding: 0;
+}
+
+#carousel{
+  margin-bottom: 0.3rem;
+}
+#carousel  img {width: 97%; display: block; opacity: .5; cursor: pointer;}
+#carousel img:hover {opacity: 1;}
+#carousel .flex-active-slide img{opacity: 1; cursor: default;}
+
+#header{
+  background: #fff;
+	  box-shadow: 0 0 3px 0 #555;
+		min-height: 50px;
+		overflow: hidden;
+
+}
+#slideshow{
+  min-height: 100px;
+	overflow: hidden;
+}
+
+#sidebar{
+  text-align: center;
+  background: url(../img/BJIWHY.png) repeat top left;
+	color: #fff;
+}
+#sidebar-inner{
+  position: fixed;
+  background: url(../img/BJIWHY.png) repeat top left;
+}
+#sidebar-inner p{
+  padding: 1rem;
+}
+
+#sidebar-inner #navigation{
+  min-height: 300px;
+}
+#sidebar-inner ul{
+  margin: 1rem 0;
+}
+#sidebar-inner ul li{
+  padding: 0.4rem;
+}
+
+#corps{
+  padding-top: 5rem;
+}
+
+.first{
+  border-bottom: 1px dashed #ddd;
+}
+.icon-quote-left{
+  font-size: 2rem;
+	color: #999;
+}
+
+.row{
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.prestations ul li{
+  padding-left: 1rem;
+	background: url(../img/puce.png) no-repeat left;
+}
+
+footer ul li{
+  float: left;
+	display: inline-block;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	border-right: 1px dashed #ddd;
+}
+footer ul li:first-child{
+	padding-left: 0;
+}
+footer ul li:last-child{
+	padding-right: 0;
+	border: 0;
+}
+footer ul li a, footer ul li a:active, footer ul li a:visited{
+  color: #B94D42;
+} footer ul li a:hover, footer ul li a:focus{
+  color: #A11A0B;
+}
+#footer-inner{
+  margin-top: 1rem;
+}
+
+.icon-facebook-sign, .icon-twitter-sign, .icon-rss-sign{
+  font-size: 1.5rem;
+}
+
+.rss, .rss:active, .rss:visited{
+  color: #ff6600;
+}
+.rss:hover, .rss:focus{
+  color: #FFAB73;
+}.fcbk, .fcbk:active, .fcbk:visited{
+  color: #3B5998;
+}
+.fcbk:hover, .fcbk:focus{
+  color: #879DCC;
+}.twitter, .twitter:active, .twitter:visited{
+  color: #409AFF;
+}
+.twitter:hover, .twitter:focus{
+  color: #96C8FF;
+}
+
+#map-wrapper{
+  border: 0.6rem solid #eee;
+  width: 99%;
+	box-shadow: 0 2px 4px 2px #999;
+	max-height: 400px;
+}
+#map{
+  height: 400px
+}
