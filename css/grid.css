@@ -52,9 +52,7 @@
 .omega{margin-right:0;}
 
 .container{
-   min-height: 200px;
 	max-width: 1100px;
-	overflow: hidden;
 	margin: auto;
 	position: relative;
 	
