@@ -1,24 +1,33 @@
 body{
   font-family: 'Roboto', serif;
-	font-size: 0.79rem;
+	font-size: 0.75rem;
+	color: #444;
 	background: #fff url(../img/FFFFFF512700_99.jpg) repeat top left;
-
 }
+
+a, a:active, a:visited{
+  color: #A63800;
+  text-decoration: none;
+} a:hover, a:focus{
+  color: #FF5600;
+}
+
 
 h1, h2, h3{
 font-family: 'Playfair Display', sans-serif;	text-transform: uppercase;
 }
 h1, h2, h3{
- color: #A11A0B;
+ color: #FF5600;
 }
 h4, h5, h6{
 font-family: 'Roboto', sans-serif;	text-transform: uppercase;
 }
 h4{
-  color: #B94D42;
+  color: #FF8040;
   margin-bottom: 0.1rem;
 	padding-bottom: 0.1rem;
 }
+
 h5{
   margin-top: 0.1rem;
 	padding-top: 0.1rem;
@@ -27,11 +36,11 @@ h5{
 	color: #999;
 }
 
-a, a:active, a:visited{
+#sidebar-inner  a, #sidebar-inner a:active, #sidebar-innera:visited{
   color: #FFFFFF;
 	text-decoration: none;
 }
-a:focus, a:hover{
+#sidebar-inner a:focus, #sidebar-inner a:hover{
   color: #F9F9F9;
 	text-decoration: none;
 }
@@ -78,12 +87,11 @@ ul{
 
 #sidebar{
   text-align: center;
-  background: url(../img/BJIWHY.png) repeat top left;
 	color: #fff;
 }
 #sidebar-inner{
   position: fixed;
-  background: url(../img/BJIWHY.png) repeat top left;
+  background: url(../img/white_brick_wall.jpg) repeat top left;
 }
 #sidebar-inner p{
   padding: 1rem;
@@ -136,11 +144,6 @@ footer ul li:last-child{
 	padding-right: 0;
 	border: 0;
 }
-footer ul li a, footer ul li a:active, footer ul li a:visited{
-  color: #B94D42;
-} footer ul li a:hover, footer ul li a:focus{
-  color: #A11A0B;
-}
 #footer-inner{
   margin-top: 1rem;
 }
@@ -174,4 +177,63 @@ footer ul li a, footer ul li a:active, footer ul li a:visited{
 }
 #map{
   height: 400px
+}
+
+.scrollTo{
+  position: absolute;
+  bottom: 9%;
+  right: 8%;
+  text-align:center;
+ }
+.scrollTo a, .scrollTo a:visited{
+  position: absolute;
+  color: #fff;
+  background: RGBA(255, 70, 0, 0.3);
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.3rem;  
+}
+.scrollTo a:hover, .scrollTo a:focus{
+  background: RGBA(255, 70, 0, 1);
+}
+
+.icon-angle-up{
+  font-size: 2rem;
+}
+
+
+.size350{
+  height: 270px;
+  overflow: hidden;
+}
+
+.sideright li{
+  padding: 0.6rem 0;
+}
+
+.address{
+  margin-bottom: 1rem;
+  min-height: 10px;
+  overflow: hidden;
+}
+
+label{
+  margin: 0.5rem 0;
+  display: block;
+  color: #666;
+}
+input, textarea{
+  padding: 0.3rem 0.7rem;
+  min-width: 150px;
+  border: 1px solid #ddd;
+  border-radius: 0.2rem;
+}
+button{
+  border: 1px solid #ddd;
+}
+form{
+  margin-bottom: 1rem;
+}
+.button{
+  margin-top: 0.7rem;
+  margin-right: 1.4rem;
 }

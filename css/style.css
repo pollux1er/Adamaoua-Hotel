@@ -28,7 +28,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-quote-left, .icon-quote-right, .icon-rss-sign, .icon-facebook-sign, .icon-twitter-sign {
+.icon-print, .icon-phone, .icon-comments, .icon-calendar, .icon-envelope, .icon-home, .icon-facebook, .icon-twitter, .icon-angle-up {
 	font-family: 'fontawesome';
 	speak: none;
 	font-style: normal;
@@ -38,18 +38,30 @@ you can use the generic selector below, but it's slower:
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
-.icon-quote-left:before {
-	content: "\f10d";
+.icon-print:before {
+	content: "\f02f";
 }
-.icon-quote-right:before {
-	content: "\f10e";
+.icon-phone:before {
+	content: "\f095";
 }
-.icon-rss-sign:before {
-	content: "\f143";
+.icon-comments:before {
+	content: "\f086";
 }
-.icon-facebook-sign:before {
-	content: "\f082";
+.icon-calendar:before {
+	content: "\f073";
 }
-.icon-twitter-sign:before {
-	content: "\f081";
+.icon-envelope:before {
+	content: "\f003";
+}
+.icon-home:before {
+	content: "\f015";
+}
+.icon-facebook:before {
+	content: "\f09a";
+}
+.icon-twitter:before {
+	content: "\f099";
+}
+.icon-angle-up:before {
+	content: "\f106";
 }

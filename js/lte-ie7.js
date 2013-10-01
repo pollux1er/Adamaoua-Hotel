@@ -6,11 +6,15 @@ window.onload = function() {
 		el.innerHTML = '<span style="font-family: \'fontawesome\'">' + entity + '</span>' + html;
 	}
 	var icons = {
-			'icon-quote-left' : '&#xf10d;',
-			'icon-quote-right' : '&#xf10e;',
-			'icon-rss-sign' : '&#xf143;',
-			'icon-facebook-sign' : '&#xf082;',
-			'icon-twitter-sign' : '&#xf081;'
+			'icon-print' : '&#xf02f;',
+			'icon-phone' : '&#xf095;',
+			'icon-comments' : '&#xf086;',
+			'icon-calendar' : '&#xf073;',
+			'icon-envelope' : '&#xf003;',
+			'icon-home' : '&#xf015;',
+			'icon-facebook' : '&#xf09a;',
+			'icon-twitter' : '&#xf099;',
+			'icon-angle-up' : '&#xf106;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, c, el;
