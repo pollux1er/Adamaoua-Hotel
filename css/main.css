@@ -88,10 +88,11 @@ ul{
 #sidebar{
   text-align: center;
 	color: #fff;
+	
 }
 #sidebar-inner{
   position: fixed;
-  background: url(../img/white_brick_wall.jpg) repeat top left;
+  background: url(../img/bgside.jpg) repeat top left;
 }
 #sidebar-inner p{
   padding: 1rem;
